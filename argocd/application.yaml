@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/TU_USUARIO/TU_REPO
-    targetRevision: main
+    targetRevision: master
     path: helm/microservicio
   destination:
     server: https://kubernetes.default.svc
