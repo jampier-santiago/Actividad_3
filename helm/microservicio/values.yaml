@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: jampiersantiagomorenoarenas/k8s-demo
   pullPolicy: Always
-  tag: "latest"
+  tag: "6e08012a50029c5cfe6bec7f5f2c645a96c58fe9"
 
 service:
   type: NodePort
