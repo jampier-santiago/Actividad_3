@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/TU_USUARIO/TU_REPO
+    repoURL: https://github.com/jampier-santiago/Actividad_3
     targetRevision: master
     path: helm/microservicio
   destination:
