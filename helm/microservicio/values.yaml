@@ -1,0 +1,18 @@
+replicaCount: 1
+
+image:
+  repository: jampiersantiagomorenoarenas/k8s-demo
+  pullPolicy: Always
+  tag: "latest"
+
+service:
+  type: NodePort
+  port: 8000
+
+resources:
+  limits:
+    cpu: 200m
+    memory: 256Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
