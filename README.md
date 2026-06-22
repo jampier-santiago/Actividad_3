@@ -163,3 +163,7 @@ El pipeline se dispara automáticamente con cada push a `master`. Realiza los si
 | GET    | `/health` | Health check      |
 | GET    | `/info`   | Info del servicio |
 | GET    | `/docs`   | Swagger UI        |
+
+
+# PRUEBAS
+Este es un cambio para probar
